@@ -18,6 +18,7 @@ insert into Setor (Descricao, Ativo) values ('Finanças', 1);
 insert into Setor (Descricao, Ativo, IdSetorPai) values ('Planejamento', '1',3); --SetorPai: Finanças
 insert into Setor (Descricao, Ativo, IdSetorPai) values ('Controle', '1',3); --SetorPai: Finanças
 insert into Setor (Descricao, Ativo, IdSetorPai) values ('Departamento Pessoal', '1',2); --SetorPai: RH
+insert into Setor (Descricao, Ativo, IdSetorPai) values ('Contratação', '1',6); --SetorPai: Departamento Pessoal
 
 --funcionario
 insert into Funcionario (IdPessoa, DataAdmissao, Salario) values (1, '1/1/2009',3500);
